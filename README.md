@@ -221,7 +221,6 @@ The earliest cellular defense against virus-induced osmotic rupture was not bioc
 
 The Arms Race: From Physical to Biochemical Warfare
 
-text
 **Stage 1 (Current Simulation)**:
     Loose fatty-acid membranes → Viruses exploit wet-dry pores → Osmotic rupture
 
