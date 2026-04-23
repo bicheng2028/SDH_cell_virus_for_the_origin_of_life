@@ -54,7 +54,7 @@ replication_factor = min(1.0, translation_rate × protein_factor)
 effective_replication_rate = 1.0 + (base_rate - 1.0) × replication_factor
 
 
-Biological Rationale:
+## Biological Rationale:
 
 DNA replication requires DNA polymerase, helicase, primase, and other proteins
 
@@ -124,27 +124,18 @@ The cell is the fundamental unit of natural selection
 
 
 
-Virus Origin: Rupture from Excessive Macromolecule Synthesis
-When a cell synthesizes macromolecules too rapidly, it faces a critical fate:
-High translation efficiency → Rapid protein synthesis
-    ↓
-Macromolecules accumulate faster than lipids can be supplied
-    ↓
-If lipids insufficient for division → Cell cannot divide
-    ↓
-Continued accumulation → Osmotic pressure increases
-    ↓
-Water influx → Cell swelling → Membrane rupture
-    ↓
-Release of contents (DNA, RNA, proteins) into environment
+Virus Origin: Osmotic Rupture Driven by Environmental Cycles
+The origin of viruses is rooted in a physicochemical inevitability rather than a biochemical innovation. This mechanism relies on a single foundational premise: the primitive membrane's random pores allow monomers (amino acids, nucleotides) to pass through more easily than their corresponding polymers (proteins, RNA, DNA). Once small molecules enter the cell and are covalently linked into macromolecules, they are physically trapped—they can no longer diffuse back out through the same pores.
 
-These released materials are the prototype of viruses:
+When a parasitic genetic element drives rapid macromolecule synthesis inside a host cell, the path to rupture unfolds through a coordinated dance with the environment's wet-dry cycles:
 
-They contain genetic material (DNA/RNA)
+1. Dry Phase — Viral Replication (Osmotic Decompression). The environment dries. The membrane's random pores constrict and nearly seal. The virus consumes the finite internal stock of amino acids and nucleotides, polymerizing them into its own proteins and nucleic acids. This process actually reduces the number of osmotically active solute particles inside the cell—many small monomers are now locked into a much smaller number of large polymers. Internal osmotic pressure drops. But because the tightly closed membrane prevents water entry, the cell remains stable, albeit osmotically decompressed. The virus has "loaded the explosive."
 
-They can be encapsulated by lipid vesicles
+2. Wet Phase — Monomer Influx (Arming the Detonator). Moisture and warmth return. The membrane hydrates, its random pores widen, and small molecules from the environment—amino acids, nucleotides—flood into the cell along their concentration gradients. The virus's active replication machinery immediately captures these incoming monomers and incorporates them into new, non-diffusible polymers. This creates a molecular ratchet pump: monomers enter freely, but once polymerized, they can never leave. Each incoming monomer, along with its counterions required for electroneutrality, adds to the cell's total osmotically active particle count. The virus does not need any specialized lysis protein; it simply exploits the cyclical membrane permeability to passively import and then chemically sequester solutes.
 
-They can "infect" new cells upon encapsulation
+3. Cooling Phase — Osmotic Catastrophe (Detonation). As temperature drops, the membrane cools, its pores contract and disappear. The cell is now sealed. Yet the external environment remains wet, providing an infinite water source. The osmotic pressure inside the cell has reached its maximum—far exceeding the pre-infection level—due to the massive influx and polymerization of monomers during the wet phase. Osmosis relentlessly drives water inward. The primitive membrane, lacking any rigid cell wall or sophisticated osmoregulation, expands to its physical limit and ruptures. The viral progeny and cellular contents are violently expelled into the environment.
+
+Conclusion. This entire cascade constitutes a form of environmentally-driven physical lysis—an emergent property of differential membrane permeability, osmotic thermodynamics, and periodic environmental fluctuations. It requires no genetically encoded lysis mechanism. It was this automatic, physical disruption that constituted the earliest "viral reproduction cycle." The subsequent evolution of true, protein-based lytic enzymes by modern viruses was a response to host cells evolving stronger membranes and cell walls—an arms race that began the moment the first primitive cell learned to reinforce its physical barrier.
 
 
 
