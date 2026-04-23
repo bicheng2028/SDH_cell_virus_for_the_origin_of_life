@@ -104,7 +104,7 @@ Success rate is only 1% (env_reverse_transcription_rate = 0.01)
 
 Plays a minor role
 
-Why Cells Are the Unit of Evolution:
+**Why Cells Are the Unit of Evolution**:
 
 Because reverse transcription is vastly more efficient inside cells, cells become the exclusive sites where genetic information can be captured and stored as DNA. This means:
 
