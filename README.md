@@ -56,16 +56,9 @@ effective_replication_rate = 1.0 + (base_rate - 1.0) × replication_factor
 
 Biological Rationale:
 
-DNA replication requires DNA polymerase, helicase, primase, and other proteins
-
-Without these enzymes, DNA cannot replicate
-
-Cells with higher protein synthesis rates can replicate their DNA faster
-
-This creates a natural selection pressure for functional genes
+DNA replication requires DNA polymerase, helicase, primase, and other enzymes. Without these enzymes, DNA cannot replicate. Cells with higher protein synthesis rates can replicate their DNA faster. This creates a natural selection pressure for functional genes.
 
 Consequence: Only cells that can efficiently produce proteins can proliferate, ensuring that natural selection favors beneficial genetic sequences.
-
 
 
 
