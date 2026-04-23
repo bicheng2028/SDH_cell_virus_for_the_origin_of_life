@@ -56,15 +56,15 @@ effective_replication_rate = 1.0 + (base_rate - 1.0) × replication_factor
 
 
 
-Biological Rationale:
+**Biological Rationale:**
 DNA replication requires DNA polymerase, helicase, primase, and other enzymes. Without these enzymes, DNA cannot replicate. Cells with higher protein synthesis rates can replicate their DNA faster. This creates a natural selection pressure for functional genes.
 
-Consequence: Only cells that can efficiently produce proteins can proliferate, ensuring that natural selection favors beneficial genetic sequences.
+**Consequence**: Only cells that can efficiently produce proteins can proliferate, ensuring that natural selection favors beneficial genetic sequences.
 
 
 
 
-Encapsulation During Dry Phase
+**Encapsulation During Dry Phase**
 During the dry phase of each cycle, when water evaporates and the environment becomes concentrated:
 
 Lipids spontaneously self-assemble into vesicles
@@ -81,7 +81,7 @@ This models the abiotic formation of protocells in drying environments.
 
 
 
-Reverse Transcription Occurs Primarily Inside Cells
+### Reverse Transcription Occurs Primarily Inside Cells
 The simulation implements two pathways for reverse transcription with very different efficiencies:
 
 Intracellular Reverse Transcription (High Efficiency):
@@ -118,7 +118,7 @@ The cell is the fundamental unit of natural selection
 
 
 
-Virus Origin: Osmotic Rupture Driven by Environmental Cycles
+### Virus Origin: Osmotic Rupture Driven by Environmental Cycles
 The origin of viruses is rooted in a physicochemical inevitability rather than a biochemical innovation. This mechanism relies on a single foundational premise: the primitive membrane's random pores allow monomers (amino acids, nucleotides) to pass through more easily than their corresponding polymers (proteins, RNA, DNA). Once small molecules enter the cell and are covalently linked into macromolecules, they are physically trapped—they can no longer diffuse back out through the same pores.
 
 When a parasitic genetic element drives rapid macromolecule synthesis inside a host cell, the path to rupture unfolds through a coordinated dance with the environment's wet-dry cycles:
@@ -134,7 +134,7 @@ Conclusion. This entire cascade constitutes a form of environmentally-driven phy
 
 
 
-The Cycle of Primitive Viruses
+### The Cycle of Primitive Viruses
 When ruptured cells release their contents:
 Cell rupture → Release of DNA (primitive vectors)
     ↓
@@ -153,7 +153,7 @@ Cycle repeats
 
 
 
-Key Simulation Results
+### Key Simulation Results
 What the Stored DNA Represents
 The DNA sequences stored in cells are a compressed mapping of the environmental RNA distribution:
 Environmental RNA Pool (dynamic, changing)
@@ -165,7 +165,7 @@ Cellular RNA (reconstructed from DNA)
 
 
 
-Key Insight: The DNA in cells is not arbitrary; it is a record of which RNA sequences were present in the environment and successfully captured. This is why:
+### Key Insight: The DNA in cells is not arbitrary; it is a record of which RNA sequences were present in the environment and successfully captured. This is why:
 
 DNA sequences show high similarity to environmental RNA (DNA-RNA similarity > 0.7 indicates successful capture)
 
@@ -176,14 +176,14 @@ The genome reflects the evolutionary history of the cell's environment
 
 
 
-Example Output
+### Example Output
 Cycle   0: Cells=571 | DNA=5 (0.9%) | DNA-Spec=0% | Env-Spec=0.2% | Sim=0.00
 Cycle  50: Cells=81  | DNA=14 (17.3%) | DNA-Spec=0% | Env-Spec=0.1% | Sim=0.00
 Cycle  99: Cells=712 | DNA=631 (88.6%) | DNA-Spec=15% | Env-Spec=8% | Sim=0.85
 
 
 
-Current Limitations (Computational Constraints)
+### Current Limitations (Computational Constraints)
 Due to computational limitations, the current simulation does NOT explicitly model the following processes:
 
 Process	Status	Reason
@@ -194,7 +194,7 @@ Full metabolic networks	❌ Not simulated	Beyond current computational scope
 
 
 
-Current Simplification
+### Current Simplification
 Instead, we assume cells already possess a functional translation system capable of polymerizing amino acids into proteins. Translation rate is modeled as a function of RNA structural stability and the presence of translation tags, which is a reasonable proxy for template quality.
 
 Justification:
@@ -208,7 +208,7 @@ These processes remain important directions for future research
 
 
 
-Future Simulation Plans (Stage 3)
+### Future Simulation Plans (Stage 3)
 Cell Membrane Evolution (Physical Reinforcement)
 
 The earliest cellular defense against virus-induced osmotic rupture was not biochemical—it was physical. Cells evolved two complementary strategies to resist the swelling pressure that inevitably follows viral replication:
@@ -250,7 +250,7 @@ Key Insight. The evolution of true, protein-based lytic enzymes by modern viruse
 
 
 
-Unifying Principle
+### Unifying Principle
 Viruses are not late-appearing parasites; they are intrinsic to the origin of life. The same process that created the first DNA cells—fast replication leading to lipid depletion and rupture—inevitably produced primitive viral particles. Cells and viruses emerged together, locked in a co-evolutionary relationship that continues to shape all life on Earth.
 
 "Cells and viruses are two sides of life" — not antagonists, but partners in the evolutionary process. One provides the factory (the cell), the other provides the vector for horizontal gene transfer (the virus). Together, they enable the exploration of sequence space and the rapid propagation of beneficial genes.
