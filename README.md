@@ -51,7 +51,8 @@ In the simulation, DNA replication is directly coupled to protein synthesis thro
 
 ```python
 replication_factor = min(1.0, translation_rate × protein_factor)
-effective_replication_rate = 1.0 + (base_rate - 1.0) × replication_factor``` 
+effective_replication_rate = 1.0 + (base_rate - 1.0) × replication_factor
+``` 
 
 
 
